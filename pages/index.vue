@@ -6,7 +6,7 @@
             <p class="text-3xl _text font-bold pl-0.5 opacity-80 leading-8 py-1">Free Subdomains</p>
             <p class="font-normal text-xl _text pl-0.5 opacity-70 py-4">Free subdomain service for open-source project and developers.</p>
             <div class="my-5 mx-1.5">
-                <button class="contact-us-btn" @click="navigateTo('https://github.com/proj-at/subdomains', { external: true, })" v-umami="'ApplyBtnClick'">Apply Now</button>
+                <button class="contact-us-btn" @click="navigateTo('https://github.com/proj-at/subdomains', { external: true, }); umTrackEvent('ApplyBtnClick')">Apply Now</button>
             </div>
         </div>
     </div>
