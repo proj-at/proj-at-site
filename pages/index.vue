@@ -11,6 +11,7 @@
         </div>
     </div>
 </template>
+
 <style scoped>
 div.alpha-version.discover-us {
     display: flex;
