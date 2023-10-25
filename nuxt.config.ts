@@ -26,6 +26,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/color-mode',
   ],
+  extends: ['nuxt-umami'],
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
     fallback: 'light', // fallback value if not system preference found
@@ -36,4 +37,11 @@ export default defineNuxtConfig({
     classSuffix: '',
     storageKey: 'proj-at-color-mode'
   },
+  appConfig: {
+    umami: {
+      id: "644785e7-07b8-4b80-8992-c234deebb969",
+      host: 'https://analytics.eu.umami.is/',
+      version: 2,
+    }
+  }
 })
