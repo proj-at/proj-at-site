@@ -34,15 +34,15 @@ div.alpha-version.discover-us {
     @apply bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-10 px-5 rounded-lg w-full flex items-center justify-center sm:w-auto dark:bg-sky-500 dark:hover:bg-sky-400 transition-all;
 }
 </style>
-<script setup lang="ts">
+<script setup lang="ts"> 
   let id = useRoute().params.id;
-  id = id.join('/')
-  console.log(id)
-  let r = await $fetch('https://ckygo.deno.dev/api/get?key=' + id)
-  r = JSON.parse(r)
   umTrackView(
     '/' + id,
     'Redirect Link'
   )
+  id = id.join('/')
+  console.log(id)
+  let r = await $fetch('https://ckygo.deno.dev/api/get?key=' + id)
+  r = JSON.parse(r)
   navigateTo(r.url, { external: true, })
 </script>
