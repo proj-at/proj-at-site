@@ -36,10 +36,10 @@ div.alpha-version.discover-us {
 </style>
 <script setup lang="ts"> 
   let id = useRoute().params.id;
-  umTrackView(
-    '/' + id,
-    'Redirect Link'
-  )
+  // umTrackView(
+  //   '/' + id,
+  //   'Redirect Link'
+  // )
   id = id.join('/')
   console.log(id)
   if (process.client) {
