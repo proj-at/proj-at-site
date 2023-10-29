@@ -42,7 +42,9 @@ div.alpha-version.discover-us {
   )
   id = id.join('/')
   console.log(id)
-  let r = await $fetch('https://ckygo.deno.dev/api/get?key=' + id)
-  r = JSON.parse(r)
-  navigateTo(r.url, { external: true, })
+  if (process.client) {
+      let r = await $fetch('https://ckygo.deno.dev/api/get?key=' + id)
+      r = JSON.parse(r)
+      navigateTo(r.url, { external: true, })
+  }
 </script>
