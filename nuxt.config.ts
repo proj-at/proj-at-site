@@ -54,6 +54,6 @@ export default defineNuxtConfig({
     prefetch: true,
     preload: true,
     preconnect: true,
-    useStylesheet: true,
+    download: false,
   }
 })
