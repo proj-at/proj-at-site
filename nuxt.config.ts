@@ -50,6 +50,10 @@ export default defineNuxtConfig({
     families: {
       "Montserrat": [400, 500, 600],
       "Sometype Mono": [400, 500, 600, 700]
-    }
+    },
+    prefetch: true,
+    preload: true,
+    preconnect: true,
+    useStylesheet: true,
   }
 })

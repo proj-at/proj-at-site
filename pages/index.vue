@@ -77,6 +77,7 @@ const projat_height = ref(75)
         </div>
     </div>
 </section>
+
 </template>
 
 <style scoped>
