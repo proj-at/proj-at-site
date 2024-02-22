@@ -25,6 +25,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/color-mode',
+    '@nuxtjs/google-fonts'
   ],
   extends: ['nuxt-umami'],
   colorMode: {
@@ -42,6 +43,13 @@ export default defineNuxtConfig({
       id: "644785e7-07b8-4b80-8992-c234deebb969",
       host: 'https://analytics.eu.umami.is/',
       version: 2,
+    }
+  },
+  googleFonts: {
+    // Options
+    families: {
+      "Montserrat": [400, 500, 600],
+      "Sometype Mono": [400, 500, 600, 700]
     }
   }
 })

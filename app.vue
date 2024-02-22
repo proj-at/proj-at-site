@@ -2,18 +2,17 @@
   <header>
 
   </header>
+  <div class="fixed top-[1rem] right-[1rem] w-screen">
+        <div class="mx-auto p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 max-w-xl"
+            role="alert">
+            <span class="font-medium">Please note that all the content on Proj.sbs is created by users. <b>Proj.at is not
+                responsible for its content and opinions.</b> If the content on it makes you feel uncomfortable, please report
+                it to us. You can send email to <b>report@proj.sbs</b> or click the button below.</span>
+        </div>
+    </div>
   <main>
     <NuxtPage />
   </main>
-  <footer class="text-center w-full max-w-3xl mx-auto my-6 py-5 container opacity-80 border-t border-solid border-t-gray-200 dark:border-t-gray-800">
-    <p class="mb-2"><span>Color Mode:</span>
-    <select v-model="$colorMode.preference" style="margin-left: .5rem; background: none;">
-      <option value="system">System</option>
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-    </select></p>
-    <p>&copy; 2023 <NuxtLink style="color: unset; text-decoration: none;" to="https://proj.at">Proj.at</NuxtLink></p>
-  </footer>
 </template>
 
 <script setup lang="ts">
