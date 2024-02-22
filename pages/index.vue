@@ -58,6 +58,25 @@ const projat_height = ref(75)
 
         </div>
     </main>
+
+    <section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-6 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Make Previewing Easier for Developers</h2>
+            <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400 text-medium">Proj.sbs was created to make previewing easier for developers. Developers can use Proj.sbs to quickly launch project documents and other open source websites. Nonetheless, we do not recommend use in production environments.</p>
+            <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400 text-medium">Proj.at is the team behind Proj.sbs. We want to turn immediate inspiration into real works and projects. It is not just limited to programming, but also combined with artistic creation.</p>
+            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                <a href="https://proj.at" class="inline-flex items-center justify-center px-4 py-2.5 text-sm font-semibold text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                    Visit Proj.at
+                </a>  
+                <a
+                    class="inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-white/0 dark:bg-black/0 text-slate-900 dark:text-slate-100 ring-1 ring-slate-900/10 dark:ring-slate-300/10 hover:bg-white/25 dark:hover:bg-dark/25 hover:ring-slate-900/15 dark:hover:ring-slate-100"
+                    href="https://github.com/proj-at/subdomains"><span>Give a Star on GitHub
+                    </span></a>
+            </div>
+        </div>
+    </div>
+</section>
 </template>
 
 <style scoped>

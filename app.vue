@@ -2,7 +2,7 @@
   <header>
 
   </header>
-  <div class="fixed top-[1rem] right-[1rem] w-screen">
+  <div class="fixed top-[1rem] right-[1rem] w-screen z-[9999]">
         <div class="mx-auto p-4 mb-4 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 max-w-xl"
             role="alert">
             <span class="font-medium">Please note that all the content on Proj.sbs is created by users. <b>Proj.at is not
