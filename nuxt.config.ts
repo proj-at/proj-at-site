@@ -15,12 +15,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Proj.sbs: Free subdomain service for open-source project and developers.' },
       ],
-      link: [
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preload', as: 'style', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Sometype+Mono:wght@400;500;700&display=swap' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Sometype+Mono:wght@400;500;700&display=swap', media: 'print', onload: "this.media='all'" },
-      ]
+      link: []
     }
   },
   modules: [
@@ -48,7 +43,7 @@ export default defineNuxtConfig({
   googleFonts: {
     // Options
     families: {
-      "Montserrat": [400, 500, 600],
+      Montserrat: [400, 500, 600, 700],
       "Sometype Mono": [400, 500, 600, 700]
     },
     prefetch: true,
